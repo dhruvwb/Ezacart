@@ -1,0 +1,105 @@
+.prodContainer{
+    padding: 50px;
+    display: flex;
+}
+
+.ImgContainer{
+  flex: 1;
+
+}
+
+.prodImage{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.InfoContainer{
+    flex: 1;
+  padding: 0 50px;
+}
+
+.prodTitle{
+  font-weight: 200;
+
+}
+
+.prodDesc{
+    margin: 20px 0;
+}
+
+.prodPrice{
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.prodFilter{
+    display: flex;
+    align-items: center;
+}
+
+.FilterContainer{
+    display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: 30px 0;
+}
+
+.FilterTitle{
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.FilterSize{
+    margin-left: 10px;
+  padding: 5px;
+}
+
+.FilterColor{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    /* background-color: ${(props) => props.color};
+    margin: 0 5px; */
+}
+
+
+/* .FilterSizeOption{
+
+} */
+
+.prodAddContainer{
+    width: 50%;
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+}
+
+.prodAmountContainer{
+    display: flex;
+align-items:center;
+font-weight: 700;
+}
+
+.prodAmount{
+    width:30px;
+height: 30px;
+border-radius: 10px;
+border: 1px solid teal;
+display: flex;
+align-items: center;
+margin: 0 5px;
+justify-content: center;
+}
+
+.Button{
+    padding:14px;
+border: 2px solid teal;
+font-weight: 500;
+background-color: white;
+cursor: pointer;
+}
+
+.Button:hover{
+    background-color: #f8f4f4;
+}

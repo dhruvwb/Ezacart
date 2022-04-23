@@ -1,0 +1,21 @@
+.an{
+    height: 45px;
+    background-color: #146eb4;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    justify-content: flex-end;
+    font-weight: 525;
+}
+
+.anContainer{
+    display: flex;
+    width: 90%;
+    justify-content: flex-end;
+}
+
+.anSpan{
+    margin-right: 50px;
+}

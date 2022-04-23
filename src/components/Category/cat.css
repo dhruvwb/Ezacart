@@ -1,0 +1,51 @@
+.Container{
+    margin: 5px;
+    flex:1;
+    border: 2px solid #e6e6e6;
+    align-items: center;
+    justify-content: center;
+   width: 70%;
+}
+
+.Image{
+    width: 202px;
+    height: 202px;
+    object-fit: contain;
+    transition: opacity .2s ease-in-out;
+    border: 1px solid var(--black-90);
+}
+
+.wrapper{
+    /* border: 2px solid red; */
+    
+}
+
+.Info{
+    /* border: 2px solid purple; */
+}
+
+.Title{
+    font-size: 18px;
+    
+    font-weight: 600;
+}
+
+
+.desc{
+    margin-top: 10px;
+    word-spacing: 2px;
+}
+
+.button{
+    padding: 10px 10px;
+    background-color: #4CaF50;
+    border: none;
+    border-radius: 7px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 15px;
+    cursor: pointer;
+    /* margin-right: 100px; */
+}
